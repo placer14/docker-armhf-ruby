@@ -1,5 +1,5 @@
-FROM cloudgear/build-deps:14.04
-MAINTAINER Georg Kunz, CloudGear <contact@cloudgear.net>
+FROM ioft/armhf-ubuntu:trusty
+MAINTAINER Mike Greenberg <mg@nobulb.com>
 
 # Use a version available on the Brightbox repo (https://www.brightbox.com/docs/ruby/ubuntu/)
 ENV RUBY_VERSION 2.2
